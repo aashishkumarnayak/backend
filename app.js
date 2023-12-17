@@ -7,7 +7,7 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 4000;
 
-const BASE_URL = process.env.BASE_URL || 
+
 
 app.use(cors()); // Enable CORS for all routes
 app.use(bodyParser.urlencoded({ extended: false }));
