@@ -1,3 +1,7 @@
+[Live Link](https://yoga-classes-addmission-form.netlify.app/)
+[![Video Demo](https://img.youtube.com/vi/abcdefghijk/0.jpg)]([https://www.youtube.com/watch?v=abcdefghijk](https://drive.google.com/file/d/11Y8mai3JOy05sRaYWynLf5q18NObd41A/view?usp=drive_link))
+
+
 # Yoga Classes Admission System
 
 This project implements a simple admission system for Yoga classes, including a user registration form and a payment system.
