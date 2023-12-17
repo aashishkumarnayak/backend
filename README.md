@@ -10,7 +10,7 @@ This project implements a simple admission system for Yoga classes, including a 
 
 ## Project Demo Video 
 
-[Demo Video]([https://www.youtube.com/watch?v=abcdefghijk](https://drive.google.com/file/d/11Y8mai3JOy05sRaYWynLf5q18NObd41A/view?usp=drive_link))
+[Demo Video](https://drive.google.com/file/d/11Y8mai3JOy05sRaYWynLf5q18NObd41A/view?usp=drive_link)
 
 
 
