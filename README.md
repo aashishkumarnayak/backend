@@ -1,10 +1,19 @@
-[Live Link](https://yoga-classes-addmission-form.netlify.app/)
-[![Video Demo](https://img.youtube.com/vi/abcdefghijk/0.jpg)]([https://www.youtube.com/watch?v=abcdefghijk](https://drive.google.com/file/d/11Y8mai3JOy05sRaYWynLf5q18NObd41A/view?usp=drive_link))
 
 
 # Yoga Classes Admission System
 
 This project implements a simple admission system for Yoga classes, including a user registration form and a payment system.
+
+## Live Project Link
+
+[Live Link](https://yoga-classes-addmission-form.netlify.app/)
+
+## Demo Video 
+
+[![Video Demo]]([https://www.youtube.com/watch?v=abcdefghijk](https://drive.google.com/file/d/11Y8mai3JOy05sRaYWynLf5q18NObd41A/view?usp=drive_link))
+
+
+
 
 ## Database Schema
 
@@ -45,7 +54,18 @@ The ER (Entity-Relationship) diagram illustrates the relationships between the `
 
 ## ER Diagram
 
-
++-------------------+          +-------------------+
+|       User        |          |      Payment      |
++-------------------+          +-------------------+
+| _id: ObjectId (PK)|1---*     | _id: ObjectId (PK)|
+| fullName: String  |<-------1 | user: ObjectId (FK)|
+| dateOfBirth: Date |          | amount: Number    |
+| gender: String    |          | status: String    |
+| contactNumber: String |      | timestamp: Date   |
+| emailAddress: String   |      +-------------------+
+| address: String   |
+| preferredBatch: String |
++-------------------+
 
 
 
