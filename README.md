@@ -53,7 +53,7 @@ The ER (Entity-Relationship) diagram illustrates the relationships between the `
   - Additional payment details include the payment amount, status (success, pending, failed), and a timestamp.
 
 ## ER Diagram
-
+```
 +-------------------+          +-------------------+
 |       User        |          |      Payment      |
 +-------------------+          +-------------------+
@@ -66,7 +66,7 @@ The ER (Entity-Relationship) diagram illustrates the relationships between the `
 | address: String   |
 | preferredBatch: String |
 +-------------------+
-
+```
 
 
 ## Backend (Node.js with Express and MongoDB)
